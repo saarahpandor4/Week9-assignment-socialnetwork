@@ -1,5 +1,11 @@
 import localFont from "next/font/local";
 import "./globals.css";
+//import clerk provider
+import { ClerkProvider, SignIn } from "@clerk/nextjs";
+import { UserButton } from "@clerk/nextjs";
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,12 +25,29 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Script
+            src="https://kit.fontawesome.com/5d4d1c054f.js"
+            crossorigin="anonymous"
+          ></Script>
+
+          <SignIn
+            appearance={{
+              elements: {
+                formButtonPrimary: "bg-slate-500 hover:bg-slate-400",
+                backgroundcolor: "purple",
+              },
+            }}
+          />
+          {/* <Header />
+          <NavBar /> */}
+          {children}
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
