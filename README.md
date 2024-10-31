@@ -1,20 +1,8 @@
-# Planning
+🎯 What requirements did you achieve?
+🎯 Were there any requirements or goals that you were unable to achieve?
+🎯 If so, what was it that you found difficult about these tasks?
 
-- concept and problem domain
-- wireframe
-
-# database schema:
-
-- Need atleast 2 tables! (e.g users and posts)
-- one to many --> one user, many posts (foreign key has to be in 'many' table)
-- The foreign key in the many table should reference the clerk_id column in one table
-
-# Set up app folder
-
-# Set up Clerk
-
-# complete the pages with content for user
-
-- Remember to add a component from Radix or another library!!!
-
-# deploy to Vercel
+- Managed to achieved the sign-up and sign-in with Clerk.
+- error page (global-error)
+- managed to create posts and display it onto the screen
+- I managed to set up a bio and display it, however it then stopped working and I was also getting random errors with my log in after with clerk? I didnt have much time to try and resolve the errors
