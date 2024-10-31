@@ -27,7 +27,7 @@ export default async function CreatePostsForm({ clerk_id }) {
           htmlFor="post"
           className="block text-2xl font-medium text-gray-600 mb-2"
         >
-          What's on your mind?
+          What is on your mind?
         </label>
         <input
           name="post"
