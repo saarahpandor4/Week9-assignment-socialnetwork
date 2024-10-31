@@ -36,13 +36,14 @@ export default function HomePage() {
             <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-gray-800 mb-2">
                 <p className="text-gray-600">
-                  🐝 What’s the Buzz Today? Hey Buzz fam! 👋 Just checking in to
-                  see what everyone’s up to today! 🌞 Whether you’re chilling,
-                  working on something cool, or just catching up on some
-                  much-needed rest, let’s hear it! ✨ Today’s Question: If you
-                  could be anywhere in the world right now, where would you be?
-                  🗺️ Drop a comment and let’s get a convo buzzing! Don’t forget
-                  to tag someone who needs a little extra good vibe today! 💛🐝
+                  🐝 What&apos;s the Buzz Today? Hey Buzz fam! 👋 Just checking
+                  in to see what everyone&apos;s up to today! 🌞 Whether
+                  you&apos;re chilling, working on something cool, or just
+                  catching up on some much-needed rest, let&apos;s hear it! ✨
+                  Today&apos;s Question: If you could be anywhere in the world
+                  right now, where would you be? 🗺️ Drop a comment and
+                  let&apos;s get a convo buzzing! Don&apos;t forget to tag
+                  someone who needs a little extra good vibe today! 💛🐝
                   #WhatsTheBuzz #GoodVibesOnly
                 </p>
               </h4>
@@ -50,14 +51,14 @@ export default function HomePage() {
             <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
               <h4 className="text-xl font-semibold text-gray-800 mb-2"></h4>
               <p className="text-gray-600">
-                🌤 Today's Weather Update! Hey everyone! 🌞 It is a beautiful day
-                out here. The temperature is hovering around 75°F (24°C) with a
-                light breeze—perfect for a stroll or some time outdoors! 🌳 But
-                heads up! 🌧 There is a slight chance of rain in the late
-                afternoon, so keep an umbrella handy if you are planning to be
-                out. And for you sunset lovers, we are in for a spectacular show
-                around 6:45 PM as the sky is supposed to clear up just in time
-                for some stunning evening colors! 🌅
+                🌤 Today&apos;s Weather Update! Hey everyone! 🌞 It is a
+                beautiful day out here. The temperature is hovering around 75°F
+                (24°C) with a light breeze—perfect for a stroll or some time
+                outdoors! 🌳 But heads up! 🌧 There is a slight chance of rain in
+                the late afternoon, so keep an umbrella handy if you are
+                planning to be out. And for you sunset lovers, we are in for a
+                spectacular show around 6:45 PM as the sky is supposed to clear
+                up just in time for some stunning evening colors! 🌅
               </p>
             </div>
           </div>
